@@ -1,7 +1,7 @@
 from pprint import pprint
 import requests
 
-SHEETY_PRICES_ENDPOINT = "YOUR_SHEETY_URL"           ## Sheety URL
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/eba25e37a9cf286210510cc5404b7402/shaharaFlightDeals/prices"           ## Sheety URL
 
 class DataManager:
     def __init__(self):
